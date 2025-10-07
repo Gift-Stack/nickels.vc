@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nickels.vc",
+  title:
+    "nickels.vc - Ultra-Early Stage Venture Capital | Micro-funding, $0.05 at a time",
   description:
     "nickels.vc - Ultra-Early Stage Venture Capital | Micro-funding, $0.05 at a time",
   keywords: [
@@ -41,16 +42,25 @@ export const metadata: Metadata = {
   ],
   creator: "_0xGifted",
   openGraph: {
-    title: "nickels.vc",
+    type: "website",
+    url: "https://nickels.vc",
+    title:
+      "nickels.vc - Ultra-Early Stage Venture Capital | Micro-funding, $0.05 at a time",
     description:
       "nickels.vc - Ultra-Early Stage Venture Capital | Micro-funding, $0.05 at a time",
-    url: "https://nickels.vc",
+    siteName: "nickels.vc",
+    images: [
+      {
+        url: "https://nickels.vc/og-image.png",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "nickels.vc",
     description:
       "nickels.vc - Ultra-Early Stage Venture Capital | Micro-funding, $0.05 at a time",
+    images: "https://nickels.vc/og-image.png",
   },
   icons: {
     icon: "/favicon.ico",
