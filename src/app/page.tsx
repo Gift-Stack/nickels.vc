@@ -338,22 +338,22 @@ export default function HomePage() {
               expertise.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 max-w-4xl mx-auto">
-            <div className="text-center">
+          <div className="grid justify-items-center grid-cols-1 gap-12 md:gap-16 max-w-4xl mx-auto rounded-none ">
+            <a
+              href="https://x.com/_0xgifted"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-center group cursor-pointer hover:opacity-80 transition-opacity duration-300 border border-transparent hover:border-copper p-6 md:p-8"
+            >
               <h3 className="vc-headline text-2xl md:text-3xl mb-2 md:mb-3 text-pure-black">
-                nickl
+                GiFTED!
               </h3>
               <p className="vc-body text-copper font-medium mb-2 text-base md:text-lg">
                 Managing Partner
               </p>
-              <a
-                href="https://x.com/nicklvc"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block mb-4 md:mb-6 text-sm text-pure-black/60 hover:text-copper transition-colors"
-              >
-                @nicklvc
-              </a>
+              <p className="inline-block mb-4 md:mb-6 text-sm text-pure-black/60 group-hover:text-copper transition-colors">
+                @_0xgifted
+              </p>
               <p className="vc-body text-sm text-pure-black/70 mb-4 md:mb-6 leading-relaxed max-w-sm mx-auto px-2">
                 18 years in micro-investments. Deployed over $237.35 in career.
                 Pioneer of the nickel-scale investment thesis.
@@ -364,8 +364,8 @@ export default function HomePage() {
                   $0.05, $0.05, $0.05
                 </div>
               </div>
-            </div>
-            <div className="text-center">
+            </a>
+            {/* <div className="text-center">
               <h3 className="vc-headline text-2xl md:text-3xl mb-2 md:mb-3 text-pure-black">
                 coinflip
               </h3>
@@ -390,7 +390,7 @@ export default function HomePage() {
                   $0.05, $0.05, $0.05
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
