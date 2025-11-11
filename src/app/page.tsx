@@ -411,7 +411,7 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 bg-copper hover:bg-copper/90 text-white px-8 md:px-12 py-4 md:py-6 text-base md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto max-w-sm"
           >
-            Submit Application (Sui USDC Only)
+            Submit Application (Solana & Sui USDC Only)
           </a>
         </div>
       </section>
