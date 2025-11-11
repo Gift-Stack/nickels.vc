@@ -49,8 +49,8 @@ export default function HomePage() {
           Professional venture capital services specializing in
           micro-investments and ultra-early stage startup funding. We provide
           instant funding solutions with $0.05 average check size, zero equity
-          requirements, and immediate Sui USDC deployment for entrepreneurs
-          and innovative startups worldwide.
+          requirements, and immediate Solana or Sui USDC deployment for
+          entrepreneurs and innovative startups worldwide.
         </p>
       </div>
 
@@ -72,7 +72,7 @@ export default function HomePage() {
               <strong>Ultra-early stage venture capital</strong> for visionary{" "}
               <strong>entrepreneurs</strong>. Our proprietary{" "}
               <em>micro-funding approach</em> delivers instant liquidity via{" "}
-              <strong>Sui USDC</strong>.
+              <strong>Solana and Sui USDC</strong>.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-y-0 sm:space-x-8 text-pure-black/50">
               <div className="text-center">
@@ -108,7 +108,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 bg-pure-black hover:bg-copper text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto"
             >
-              Apply for Funding (Sui USDC Only)
+              Apply for Funding (Solana and Sui USDC Only)
             </a>
             <button className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background h-11 border-2 border-pure-black hover:bg-pure-black hover:text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto">
               Learn More
@@ -166,7 +166,7 @@ export default function HomePage() {
               </h3>
               <p className="vc-body text-sm md:text-base text-pure-black/70 leading-relaxed px-2">
                 Traditional <strong>VC</strong> moves slowly. We deploy capital
-                in seconds via <strong>Sui USDC</strong>, not months.
+                in seconds via <strong>Solana and Sui USDC</strong>, not months.
                 <em>Speed</em> is the ultimate competitive advantage.
               </p>
             </div>
