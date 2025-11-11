@@ -108,7 +108,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 bg-pure-black hover:bg-copper text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto"
             >
-              Apply for Funding (Solana and Sui USDC Only)
+              Apply for Funding (Solana & Sui USDC Only)
             </a>
             <button className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background h-11 border-2 border-pure-black hover:bg-pure-black hover:text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto">
               Learn More
