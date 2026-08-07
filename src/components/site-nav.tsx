@@ -1,0 +1,49 @@
+import Link from "next/link";
+
+export function SiteNav() {
+  return (
+    <nav className="fixed top-0 left-0 right-0 bg-pure-white/95 backdrop-blur-sm border-b border-neutral-gray z-50">
+      <div className="container mx-auto px-4 py-4">
+        <div className="flex items-center justify-between">
+          <Link
+            className="vc-headline text-2xl text-pure-black hover:text-copper transition-colors"
+            href="/"
+          >
+            nickels.vc
+          </Link>
+          <div className="hidden md:flex items-center space-x-8">
+            <Link
+              className="vc-body text-pure-black/70 hover:text-pure-black transition-colors"
+              href="/blog"
+            >
+              Blog
+            </Link>
+            <Link
+              className="vc-body text-pure-black/70 hover:text-pure-black transition-colors"
+              href="/portfolio"
+            >
+              Portfolio
+            </Link>
+            <Link
+              className="vc-body text-pure-black/70 hover:text-pure-black transition-colors"
+              href="/learn-more"
+            >
+              Learn More
+            </Link>
+            <a
+              href="https://forms.gle/SN8JYBCkSbBNh3qJA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 bg-pure-black hover:bg-copper text-white px-6 py-2 rounded-none"
+            >
+              Apply for Funding
+            </a>
+          </div>
+          <button className="md:hidden w-6 h-6 flex flex-col justify-center items-center">
+            <span className="w-full h-0.5 bg-pure-black mt-1 transition-all"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  );
+}
