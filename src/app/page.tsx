@@ -207,7 +207,7 @@ export default function HomePage() {
               and funds training for people entering the industry.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 max-w-6xl mx-auto">
             <div className="text-card-foreground shadow-sm border-2 border-pure-black bg-pure-white rounded-none hover:bg-neutral-gray/10 transition-all duration-300 group">
               <div className="p-6 md:p-8">
                 <div className="flex flex-col h-full">
@@ -217,8 +217,32 @@ export default function HomePage() {
                     </span>
                   </div>
                   <h3 className="vc-headline text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
-                    Tech Fiesta
+                    Techfiesta 2.0
                   </h3>
+                </div>
+              </div>
+            </div>
+            <div className="text-card-foreground shadow-sm border-2 border-pure-black bg-pure-white rounded-none hover:bg-neutral-gray/10 transition-all duration-300 group">
+              <div className="p-6 md:p-8">
+                <div className="flex flex-col h-full">
+                  <div className="mb-4">
+                    <span className="inline-block px-3 py-1 bg-copper text-pure-white text-xs font-medium">
+                      EVENT PARTNER
+                    </span>
+                  </div>
+                  <h3 className="vc-headline text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
+                    Suinami Lagos
+                  </h3>
+                  <div className="flex flex-col space-y-2 mt-auto">
+                    <a
+                      href="https://x.com/SuiNetworkNG"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="vc-body text-sm text-pure-black/60 hover:text-copper transition-colors"
+                    >
+                      @SuiNetworkNG
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
