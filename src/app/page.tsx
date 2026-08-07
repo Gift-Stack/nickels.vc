@@ -54,13 +54,13 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="hero-section min-h-screen flex items-center justify-center px-6 pt-20">
-        <div className="text-center max-w-5xl">
+        <div className="text-center max-w-5xl w-full">
           <div className="mb-6 md:mb-8">
             <div className="inline-block px-4 py-2 border border-copper text-copper vc-body text-sm md:text-sm mb-6 md:mb-8">
               NOW ACCEPTING APPLICATIONS
             </div>
           </div>
-          <h1 className="vc-headline text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-9xl mb-10 md:mb-14 text-pure-black leading-[1.1] tracking-tight">
+          <h1 className="vc-headline text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-9xl mb-10 md:mb-14 text-pure-black leading-[1.1] tracking-tight break-words">
             We back <strong>founders</strong> who think big.
             <br />
             <span className="text-copper">Starting with a nickel.</span>
@@ -104,7 +104,7 @@ export default function HomePage() {
               href="https://forms.gle/SN8JYBCkSbBNh3qJA"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 bg-pure-black hover:bg-copper text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto"
+              className="inline-flex items-center justify-center text-center whitespace-normal sm:whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-pure-black hover:bg-copper text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto"
             >
               Apply for Funding (Solana & Sui USDC Only)
             </a>
@@ -125,7 +125,7 @@ export default function HomePage() {
           <div className="text-center mb-12 md:mb-20">
             <h2
               id="investment-thesis-heading"
-              className="vc-headline text-5xl md:text-6xl lg:text-7xl text-pure-black mb-8 md:mb-10 leading-tight"
+              className="vc-headline text-5xl md:text-6xl lg:text-7xl text-pure-black mb-8 md:mb-10 leading-tight break-words"
             >
               Investment Thesis
             </h2>
@@ -198,7 +198,7 @@ export default function HomePage() {
           <div className="text-center mb-12 md:mb-20">
             <h2
               id="partners-heading"
-              className="vc-headline text-5xl md:text-6xl lg:text-7xl text-pure-black mb-8 md:mb-10 leading-tight"
+              className="vc-headline text-5xl md:text-6xl lg:text-7xl text-pure-black mb-8 md:mb-10 leading-tight break-words"
             >
               Partners
             </h2>
@@ -310,7 +310,7 @@ export default function HomePage() {
           <div className="text-center mb-12 md:mb-20">
             <h2
               id="team-heading"
-              className="vc-headline text-5xl md:text-6xl lg:text-7xl text-pure-black mb-8 md:mb-10 leading-tight"
+              className="vc-headline text-5xl md:text-6xl lg:text-7xl text-pure-black mb-8 md:mb-10 leading-tight break-words"
             >
               Our Team
             </h2>
@@ -375,7 +375,7 @@ export default function HomePage() {
       {/* Ready to Get Funded Section */}
       <section className="py-20 md:py-40 px-4 border-t border-neutral-gray bg-pure-black">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="vc-headline text-5xl md:text-6xl lg:text-7xl text-white mb-8 md:mb-10 leading-tight">
+          <h2 className="vc-headline text-5xl md:text-6xl lg:text-7xl text-white mb-8 md:mb-10 leading-tight break-words">
             Ready to Get Funded?
           </h2>
           <p className="vc-body text-lg md:text-xl text-white/70 mb-8 md:mb-12 max-w-2xl mx-auto px-4">
@@ -386,7 +386,7 @@ export default function HomePage() {
             href="https://forms.gle/SN8JYBCkSbBNh3qJA"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 bg-copper hover:bg-copper/90 text-white px-8 md:px-12 py-4 md:py-6 text-base md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto max-w-sm"
+            className="inline-flex items-center justify-center text-center whitespace-normal sm:whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-copper hover:bg-copper/90 text-white px-8 md:px-12 py-4 md:py-6 text-base md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto max-w-sm"
           >
             Submit Application (Solana & Sui USDC Only)
           </a>
