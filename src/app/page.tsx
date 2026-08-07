@@ -104,9 +104,10 @@ export default function HomePage() {
               href="https://forms.gle/SN8JYBCkSbBNh3qJA"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center text-center whitespace-normal sm:whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-pure-black hover:bg-copper text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto"
+              className="inline-flex flex-col items-center justify-center text-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-pure-black hover:bg-copper text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto sm:flex-row sm:gap-1.5"
             >
-              Apply for Funding (Solana & Sui USDC Only)
+              <span>Apply for Funding</span>
+              <span>(Solana &amp; Sui USDC Only)</span>
             </a>
             <button className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background h-11 border-2 border-pure-black hover:bg-pure-black hover:text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto">
               Learn More
@@ -386,9 +387,10 @@ export default function HomePage() {
             href="https://forms.gle/SN8JYBCkSbBNh3qJA"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center text-center whitespace-normal sm:whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-copper hover:bg-copper/90 text-white px-8 md:px-12 py-4 md:py-6 text-base md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto max-w-sm"
+            className="inline-flex flex-col items-center justify-center text-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-copper hover:bg-copper/90 text-white px-8 md:px-12 py-4 md:py-6 text-base md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto max-w-sm sm:flex-row sm:gap-1.5"
           >
-            Submit Application (Solana & Sui USDC Only)
+            <span>Submit Application</span>
+            <span>(Solana &amp; Sui USDC Only)</span>
           </a>
         </div>
       </section>
