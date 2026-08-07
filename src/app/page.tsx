@@ -407,8 +407,8 @@ export default function HomePage() {
           </div>
           <div className="border-t border-neutral-gray pt-8">
             <p className="vc-body text-sm text-pure-black/40 leading-relaxed">
-              © 2025 nickels.vc. Past performance is not indicative of future
-              nickels.
+              © {new Date().getFullYear()} nickels.vc. Past performance is not
+              indicative of future nickels.
             </p>
           </div>
         </div>
