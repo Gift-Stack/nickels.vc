@@ -1,46 +1,11 @@
 import Link from "next/link";
+import { SiteNav } from "@/components/site-nav";
+import { SiteFooter } from "@/components/site-footer";
 
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-pure-white" role="main">
-      {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 bg-pure-white/95 backdrop-blur-sm border-b border-neutral-gray z-50">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <Link
-              className="vc-headline text-2xl text-pure-black hover:text-copper transition-colors"
-              href="/"
-            >
-              nickels.vc
-            </Link>
-            <div className="hidden md:flex items-center space-x-8">
-              <Link
-                className="vc-body text-pure-black/70 hover:text-pure-black transition-colors"
-                href="/blog"
-              >
-                Blog
-              </Link>
-              <Link
-                className="vc-body text-pure-black/70 hover:text-pure-black transition-colors"
-                href="/portfolio"
-              >
-                Portfolio
-              </Link>
-              <a
-                href="https://forms.gle/SN8JYBCkSbBNh3qJA"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 bg-pure-black hover:bg-copper text-white px-6 py-2 rounded-none"
-              >
-                Apply for Funding
-              </a>
-            </div>
-            <button className="md:hidden w-6 h-6 flex flex-col justify-center items-center">
-              <span className="w-full h-0.5 bg-pure-black mt-1 transition-all"></span>
-            </button>
-          </div>
-        </div>
-      </nav>
+      <SiteNav />
 
       {/* Screen Reader Only Content */}
       <div className="sr-only">
@@ -109,9 +74,12 @@ export default function HomePage() {
               <span>Apply for Funding</span>
               <span>(Solana &amp; Sui USDC Only)</span>
             </a>
-            <button className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background h-11 border-2 border-pure-black hover:bg-pure-black hover:text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto">
+            <Link
+              href="/learn-more"
+              className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background h-11 border-2 border-pure-black hover:bg-pure-black hover:text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto"
+            >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -395,26 +363,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="py-20 md:py-24 px-4 border-t border-neutral-gray">
-        <div className="container mx-auto max-w-4xl text-center">
-          <div className="mb-8">
-            <h3 className="vc-headline text-3xl text-pure-black mb-4">
-              nickels.vc
-            </h3>
-            <p className="vc-body text-pure-black/60 max-w-2xl mx-auto">
-              Ultra-early stage venture capital. Backing ambition, one nickel at
-              a time.
-            </p>
-          </div>
-          <div className="border-t border-neutral-gray pt-8">
-            <p className="vc-body text-sm text-pure-black/40 leading-relaxed">
-              © {new Date().getFullYear()} nickels.vc. Past performance is not
-              indicative of future nickels.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }
