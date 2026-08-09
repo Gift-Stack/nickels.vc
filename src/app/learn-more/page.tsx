@@ -282,7 +282,7 @@ export default function LearnMorePage() {
                 href="https://iamgifted.dev"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 h-11 bg-pure-black hover:bg-copper text-white px-8 text-base font-medium transition-all duration-300 rounded-none"
+                className="press inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 h-11 bg-pure-black hover:bg-copper text-white px-8 text-base font-medium rounded-none"
               >
                 iamgifted.dev
               </a>
@@ -290,7 +290,7 @@ export default function LearnMorePage() {
                 href="https://x.com/_0xgifted"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 h-11 border-2 border-pure-black hover:bg-pure-black hover:text-white px-8 text-base font-medium transition-all duration-300 rounded-none"
+                className="press inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 h-11 border-2 border-pure-black hover:bg-pure-black hover:text-white px-8 text-base font-medium rounded-none"
               >
                 @_0xgifted
               </a>
@@ -316,13 +316,13 @@ export default function LearnMorePage() {
               href="https://forms.gle/SN8JYBCkSbBNh3qJA"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 h-11 bg-copper hover:bg-copper/90 text-white px-8 text-base font-medium transition-all duration-300 rounded-none w-full sm:w-auto"
+              className="press inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 h-11 bg-copper hover:bg-copper/90 text-white px-8 text-base font-medium rounded-none w-full sm:w-auto"
             >
               Apply for Funding
             </a>
             <Link
               href="/#partners"
-              className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 h-11 border-2 border-white text-white hover:bg-white hover:text-pure-black px-8 text-base font-medium transition-all duration-300 rounded-none w-full sm:w-auto"
+              className="press inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 h-11 border-2 border-white text-white hover:bg-white hover:text-pure-black px-8 text-base font-medium rounded-none w-full sm:w-auto"
             >
               See Our Partners
             </Link>

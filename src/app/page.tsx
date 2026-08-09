@@ -61,14 +61,14 @@ export default function HomePage() {
               href="https://forms.gle/SN8JYBCkSbBNh3qJA"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex flex-col items-center justify-center text-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-pure-black hover:bg-copper text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto sm:flex-row sm:gap-1.5"
+              className="press inline-flex flex-col items-center justify-center text-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-pure-black hover:bg-copper text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium rounded-none w-full sm:w-auto sm:flex-row sm:gap-1.5"
             >
               <span>Apply for Funding</span>
               <span>(Solana &amp; Sui USDC Only)</span>
             </a>
             <Link
               href="/learn-more"
-              className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background h-11 border-2 border-pure-black hover:bg-pure-black hover:text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto"
+              className="press inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background h-11 border-2 border-pure-black hover:bg-pure-black hover:text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium rounded-none w-full sm:w-auto"
             >
               Learn More
             </Link>
@@ -169,7 +169,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 max-w-6xl mx-auto">
-            <div className="text-card-foreground shadow-sm border-2 border-pure-black bg-pure-white rounded-none hover:bg-neutral-gray/10 transition-all duration-300 group">
+            <div className="card-lift text-card-foreground shadow-sm border-2 border-pure-black hover:border-copper bg-pure-white rounded-none hover:bg-neutral-gray/10 group">
               <div className="p-6 md:p-8">
                 <div className="flex flex-col h-full">
                   <div className="mb-4">
@@ -183,7 +183,7 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-            <div className="text-card-foreground shadow-sm border-2 border-pure-black bg-pure-white rounded-none hover:bg-neutral-gray/10 transition-all duration-300 group">
+            <div className="card-lift text-card-foreground shadow-sm border-2 border-pure-black hover:border-copper bg-pure-white rounded-none hover:bg-neutral-gray/10 group">
               <div className="p-6 md:p-8">
                 <div className="flex flex-col h-full">
                   <div className="mb-4">
@@ -207,7 +207,7 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-            <div className="text-card-foreground shadow-sm border-2 border-pure-black bg-pure-white rounded-none hover:bg-neutral-gray/10 transition-all duration-300 group">
+            <div className="card-lift text-card-foreground shadow-sm border-2 border-pure-black hover:border-copper bg-pure-white rounded-none hover:bg-neutral-gray/10 group">
               <div className="p-6 md:p-8">
                 <div className="flex flex-col h-full">
                   <div className="mb-4">
@@ -233,7 +233,7 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-            <div className="text-card-foreground shadow-sm border-2 border-pure-black bg-pure-white rounded-none hover:bg-neutral-gray/10 transition-all duration-300 group">
+            <div className="card-lift text-card-foreground shadow-sm border-2 border-pure-black hover:border-copper bg-pure-white rounded-none hover:bg-neutral-gray/10 group">
               <div className="p-6 md:p-8">
                 <div className="flex flex-col h-full">
                   <div className="mb-4">
@@ -286,7 +286,7 @@ export default function HomePage() {
               href="https://x.com/_0xgifted"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-center group cursor-pointer hover:opacity-80 transition-opacity duration-300 border border-transparent hover:border-copper p-6 md:p-8"
+              className="card-lift text-center group cursor-pointer border border-transparent hover:border-copper p-6 md:p-8"
             >
               <h3 className="vc-headline tracking-headline-sm leading-tight text-2xl md:text-3xl mb-2 md:mb-3 text-pure-black">
                 GiFTED!
@@ -347,7 +347,7 @@ export default function HomePage() {
             href="https://forms.gle/SN8JYBCkSbBNh3qJA"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex flex-col items-center justify-center text-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-copper hover:bg-copper/90 text-white px-8 md:px-12 py-4 md:py-6 text-base md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto max-w-sm sm:flex-row sm:gap-1.5"
+            className="press inline-flex flex-col items-center justify-center text-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-copper hover:bg-copper/90 text-white px-8 md:px-12 py-4 md:py-6 text-base md:text-lg font-medium rounded-none w-full sm:w-auto max-w-sm sm:flex-row sm:gap-1.5"
           >
             <span>Submit Application</span>
             <span>(Solana &amp; Sui USDC Only)</span>

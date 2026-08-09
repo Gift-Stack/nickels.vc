@@ -32,6 +32,9 @@
     --pure-white: 251 251 251;
     --copper: 197 77 37;
     --neutral-gray: 152 152 151;
+
+    /* Shared motion curve: approximates a critically-damped spring settle */
+    --ease-apple: cubic-bezier(0.22, 1, 0.36, 1);
   }
 
   .dark {
@@ -152,5 +155,51 @@
 
   .hover\:text-copper:hover {
     color: rgb(var(--copper));
+  }
+
+  /* Feedback lives on the press, not the release, and it's quick. */
+  .press {
+    transition:
+      transform 150ms var(--ease-apple),
+      background-color 300ms var(--ease-apple),
+      color 300ms var(--ease-apple),
+      border-color 300ms var(--ease-apple);
+  }
+
+  .press:active {
+    transform: scale(0.97);
+  }
+
+  /* Restrained hover lift for cards — a single deliberate motion, not a pile of them. */
+  .card-lift {
+    transition:
+      transform 300ms var(--ease-apple),
+      border-color 300ms var(--ease-apple),
+      background-color 300ms var(--ease-apple);
+  }
+
+  .card-lift:hover {
+    transform: translateY(-4px);
+  }
+
+  .card-lift:active {
+    transform: translateY(-2px) scale(0.99);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .card-lift:hover,
+  .card-lift:active,
+  .press:active {
+    transform: none !important;
   }
 }
