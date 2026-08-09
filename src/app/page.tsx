@@ -25,33 +25,25 @@ export default function HomePage() {
               NOW ACCEPTING APPLICATIONS
             </div>
           </div>
-          <h1 className="vc-headline text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-9xl mb-10 md:mb-14 text-pure-black leading-[1.1] tracking-tight break-words">
+          <h1 className="vc-headline tracking-hero text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-9xl mb-10 md:mb-14 text-pure-black leading-[1.1] break-words">
             We back <strong>founders</strong> who think big.
             <br />
             <span className="text-copper">Starting with a nickel.</span>
           </h1>
           <div className="max-w-2xl mx-auto mb-12 md:mb-16">
             <p className="vc-body text-xl md:text-xl lg:text-2xl text-pure-black/70 leading-relaxed mb-6 md:mb-8 px-4">
-              <strong>Ultra-early stage venture capital</strong> for visionary{" "}
+              <strong>Ultra-early stage micro-funding</strong> for visionary{" "}
               <strong>entrepreneurs</strong>. Our proprietary{" "}
               <em>micro-funding approach</em> delivers instant liquidity via{" "}
-              <strong>Solana and Sui USDC</strong>.
+              <strong>Solana and Sui USDC</strong> — starting with a nickel.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-y-0 sm:space-x-8 text-pure-black/50">
               <div className="text-center">
-                <div className="vc-numbers text-4xl md:text-4xl font-bold text-copper">
-                  $0.05
-                </div>
-                <div className="vc-body text-base md:text-base">
-                  Average Check
-                </div>
-              </div>
-              <div className="text-center">
                 <div className="vc-numbers text-4xl md:text-4xl font-bold text-pure-black">
-                  ∞
+                  None
                 </div>
                 <div className="vc-body text-base md:text-base">
-                  Portfolio Companies
+                  Fund Structure
                 </div>
               </div>
               <div className="text-center">
@@ -69,14 +61,14 @@ export default function HomePage() {
               href="https://forms.gle/SN8JYBCkSbBNh3qJA"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex flex-col items-center justify-center text-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-pure-black hover:bg-copper text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto sm:flex-row sm:gap-1.5"
+              className="press inline-flex flex-col items-center justify-center text-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-pure-black hover:bg-copper text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium rounded-none w-full sm:w-auto sm:flex-row sm:gap-1.5"
             >
               <span>Apply for Funding</span>
               <span>(Solana &amp; Sui USDC Only)</span>
             </a>
             <Link
               href="/learn-more"
-              className="inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background h-11 border-2 border-pure-black hover:bg-pure-black hover:text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto"
+              className="press inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background h-11 border-2 border-pure-black hover:bg-pure-black hover:text-white px-10 md:px-12 py-5 md:py-6 text-lg md:text-lg font-medium rounded-none w-full sm:w-auto"
             >
               Learn More
             </Link>
@@ -112,7 +104,7 @@ export default function HomePage() {
                   01
                 </div>
               </div>
-              <h3 className="vc-headline text-xl md:text-2xl mb-4 md:mb-6 text-pure-black">
+              <h3 className="vc-headline tracking-headline-sm leading-tight text-xl md:text-2xl mb-4 md:mb-6 text-pure-black">
                 Micro-Capital Efficiency
               </h3>
               <p className="vc-body text-sm md:text-base text-pure-black/70 leading-relaxed px-2">
@@ -128,12 +120,12 @@ export default function HomePage() {
                   02
                 </div>
               </div>
-              <h3 className="vc-headline text-xl md:text-2xl mb-4 md:mb-6 text-pure-black">
+              <h3 className="vc-headline tracking-headline-sm leading-tight text-xl md:text-2xl mb-4 md:mb-6 text-pure-black">
                 Instant Deployment
               </h3>
               <p className="vc-body text-sm md:text-base text-pure-black/70 leading-relaxed px-2">
-                Traditional <strong>VC</strong> moves slowly. We deploy capital
-                in seconds via <strong>Solana and Sui USDC</strong>, not months.
+                Traditional funding moves slowly. We deploy capital in seconds
+                via <strong>Solana and Sui USDC</strong>, not months.{" "}
                 <em>Speed</em> is the ultimate competitive advantage.
               </p>
             </div>
@@ -143,7 +135,7 @@ export default function HomePage() {
                   03
                 </div>
               </div>
-              <h3 className="vc-headline text-xl md:text-2xl mb-4 md:mb-6 text-pure-black">
+              <h3 className="vc-headline tracking-headline-sm leading-tight text-xl md:text-2xl mb-4 md:mb-6 text-pure-black">
                 Zero Dilution
               </h3>
               <p className="vc-body text-sm md:text-base text-pure-black/70 leading-relaxed px-2">
@@ -177,7 +169,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 max-w-6xl mx-auto">
-            <div className="text-card-foreground shadow-sm border-2 border-pure-black bg-pure-white rounded-none hover:bg-neutral-gray/10 transition-all duration-300 group">
+            <div className="card-lift text-card-foreground shadow-sm border-2 border-pure-black hover:border-copper bg-pure-white rounded-none hover:bg-neutral-gray/10 group">
               <div className="p-6 md:p-8">
                 <div className="flex flex-col h-full">
                   <div className="mb-4">
@@ -185,13 +177,13 @@ export default function HomePage() {
                       EVENT PARTNER
                     </span>
                   </div>
-                  <h3 className="vc-headline text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
+                  <h3 className="vc-headline tracking-headline-sm leading-tight text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
                     Techfiesta 2.0
                   </h3>
                 </div>
               </div>
             </div>
-            <div className="text-card-foreground shadow-sm border-2 border-pure-black bg-pure-white rounded-none hover:bg-neutral-gray/10 transition-all duration-300 group">
+            <div className="card-lift text-card-foreground shadow-sm border-2 border-pure-black hover:border-copper bg-pure-white rounded-none hover:bg-neutral-gray/10 group">
               <div className="p-6 md:p-8">
                 <div className="flex flex-col h-full">
                   <div className="mb-4">
@@ -199,7 +191,7 @@ export default function HomePage() {
                       EVENT PARTNER
                     </span>
                   </div>
-                  <h3 className="vc-headline text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
+                  <h3 className="vc-headline tracking-headline-sm leading-tight text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
                     Suinami Lagos
                   </h3>
                   <div className="flex flex-col space-y-2 mt-auto">
@@ -215,7 +207,7 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-            <div className="text-card-foreground shadow-sm border-2 border-pure-black bg-pure-white rounded-none hover:bg-neutral-gray/10 transition-all duration-300 group">
+            <div className="card-lift text-card-foreground shadow-sm border-2 border-pure-black hover:border-copper bg-pure-white rounded-none hover:bg-neutral-gray/10 group">
               <div className="p-6 md:p-8">
                 <div className="flex flex-col h-full">
                   <div className="mb-4">
@@ -223,7 +215,7 @@ export default function HomePage() {
                       EVENT PARTNER
                     </span>
                   </div>
-                  <h3 className="vc-headline text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
+                  <h3 className="vc-headline tracking-headline-sm leading-tight text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
                     Entrypoint Labs
                   </h3>
                   <div className="flex flex-col space-y-2 mt-auto">
@@ -241,7 +233,7 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-            <div className="text-card-foreground shadow-sm border-2 border-pure-black bg-pure-white rounded-none hover:bg-neutral-gray/10 transition-all duration-300 group">
+            <div className="card-lift text-card-foreground shadow-sm border-2 border-pure-black hover:border-copper bg-pure-white rounded-none hover:bg-neutral-gray/10 group">
               <div className="p-6 md:p-8">
                 <div className="flex flex-col h-full">
                   <div className="mb-4">
@@ -249,7 +241,7 @@ export default function HomePage() {
                       EVENT PARTNER
                     </span>
                   </div>
-                  <h3 className="vc-headline text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
+                  <h3 className="vc-headline tracking-headline-sm leading-tight text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
                     Xend Global
                   </h3>
                   <div className="flex flex-col space-y-2 mt-auto">
@@ -294,9 +286,9 @@ export default function HomePage() {
               href="https://x.com/_0xgifted"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-center group cursor-pointer hover:opacity-80 transition-opacity duration-300 border border-transparent hover:border-copper p-6 md:p-8"
+              className="card-lift text-center group cursor-pointer border border-transparent hover:border-copper p-6 md:p-8"
             >
-              <h3 className="vc-headline text-2xl md:text-3xl mb-2 md:mb-3 text-pure-black">
+              <h3 className="vc-headline tracking-headline-sm leading-tight text-2xl md:text-3xl mb-2 md:mb-3 text-pure-black">
                 GiFTED!
               </h3>
               <p className="vc-body text-copper font-medium mb-2 text-base md:text-lg">
@@ -355,7 +347,7 @@ export default function HomePage() {
             href="https://forms.gle/SN8JYBCkSbBNh3qJA"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex flex-col items-center justify-center text-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-copper hover:bg-copper/90 text-white px-8 md:px-12 py-4 md:py-6 text-base md:text-lg font-medium transition-all duration-300 rounded-none w-full sm:w-auto max-w-sm sm:flex-row sm:gap-1.5"
+            className="press inline-flex flex-col items-center justify-center text-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-auto min-h-11 bg-copper hover:bg-copper/90 text-white px-8 md:px-12 py-4 md:py-6 text-base md:text-lg font-medium rounded-none w-full sm:w-auto max-w-sm sm:flex-row sm:gap-1.5"
           >
             <span>Submit Application</span>
             <span>(Solana &amp; Sui USDC Only)</span>

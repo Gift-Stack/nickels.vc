@@ -32,6 +32,9 @@
     --pure-white: 251 251 251;
     --copper: 197 77 37;
     --neutral-gray: 152 152 151;
+
+    /* Shared motion curve: approximates a critically-damped spring settle */
+    --ease-apple: cubic-bezier(0.22, 1, 0.36, 1);
   }
 
   .dark {
@@ -65,15 +68,31 @@
     @apply bg-background text-foreground;
     font-family: "Inter Tight", "Neue Haas Grotesk", "Inter", system-ui,
       sans-serif;
+    line-height: 1.5;
   }
 }
 
 @layer components {
+  /*
+   * Tracking is size-specific, not a single constant: large display type
+   * (hero, .tracking-hero below) wants more negative tracking as it grows,
+   * small headline text (<=30px: card/nav labels) wants to sit near zero.
+   * This is the mid tier default for section headings (~48-72px).
+   */
   .vc-headline {
     font-family: "Inter Tight", "Neue Haas Grotesk", "Inter", system-ui,
       sans-serif;
     font-weight: 700;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.015em;
+    font-optical-sizing: auto;
+  }
+
+  .tracking-hero {
+    letter-spacing: -0.035em;
+  }
+
+  .tracking-headline-sm {
+    letter-spacing: -0.008em;
   }
 
   .vc-body {
@@ -86,6 +105,8 @@
     font-family: "Inter Tight", "Neue Haas Grotesk", "Inter", system-ui,
       sans-serif;
     font-weight: 600;
+    letter-spacing: -0.01em;
+    font-variant-numeric: tabular-nums;
   }
 
   .pure-black {
@@ -134,5 +155,51 @@
 
   .hover\:text-copper:hover {
     color: rgb(var(--copper));
+  }
+
+  /* Feedback lives on the press, not the release, and it's quick. */
+  .press {
+    transition:
+      transform 150ms var(--ease-apple),
+      background-color 300ms var(--ease-apple),
+      color 300ms var(--ease-apple),
+      border-color 300ms var(--ease-apple);
+  }
+
+  .press:active {
+    transform: scale(0.97);
+  }
+
+  /* Restrained hover lift for cards — a single deliberate motion, not a pile of them. */
+  .card-lift {
+    transition:
+      transform 300ms var(--ease-apple),
+      border-color 300ms var(--ease-apple),
+      background-color 300ms var(--ease-apple);
+  }
+
+  .card-lift:hover {
+    transform: translateY(-4px);
+  }
+
+  .card-lift:active {
+    transform: translateY(-2px) scale(0.99);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .card-lift:hover,
+  .card-lift:active,
+  .press:active {
+    transform: none !important;
   }
 }
