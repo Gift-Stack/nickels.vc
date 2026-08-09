@@ -187,7 +187,7 @@ export default function LearnMorePage() {
       {/* What it does: spec-sheet list, not a card grid */}
       <section className="py-20 md:py-28 px-6 border-b border-neutral-gray">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="vc-headline text-3xl md:text-4xl mb-10 md:mb-14 text-pure-black leading-tight break-words">
+          <h2 className="vc-headline leading-tight text-3xl md:text-4xl mb-10 md:mb-14 text-pure-black break-words">
             What nickels.vc does
           </h2>
           <div className="divide-y divide-neutral-gray border-t border-b border-neutral-gray">
@@ -196,7 +196,7 @@ export default function LearnMorePage() {
                 key={item.label}
                 className="grid sm:grid-cols-[180px_1fr] gap-2 sm:gap-8 py-8"
               >
-                <h3 className="vc-headline text-lg text-pure-black">
+                <h3 className="vc-headline tracking-headline-sm leading-tight text-lg text-pure-black">
                   {item.label}
                 </h3>
                 {item.body === "partners" ? (
@@ -243,7 +243,7 @@ export default function LearnMorePage() {
             Why
           </span>
           <blockquote className="border-l-4 border-copper pl-6 md:pl-10 mt-4">
-            <p className="vc-headline text-2xl md:text-3xl text-pure-black leading-snug break-words">
+            <p className="vc-headline tracking-headline-sm text-2xl md:text-3xl text-pure-black leading-snug break-words">
               Capital constraints breed resourcefulness.
             </p>
             <p className="vc-body text-lg text-pure-black/70 leading-relaxed mt-4">

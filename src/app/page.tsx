@@ -25,7 +25,7 @@ export default function HomePage() {
               NOW ACCEPTING APPLICATIONS
             </div>
           </div>
-          <h1 className="vc-headline text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-9xl mb-10 md:mb-14 text-pure-black leading-[1.1] tracking-tight break-words">
+          <h1 className="vc-headline tracking-hero text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-9xl mb-10 md:mb-14 text-pure-black leading-[1.1] break-words">
             We back <strong>founders</strong> who think big.
             <br />
             <span className="text-copper">Starting with a nickel.</span>
@@ -104,7 +104,7 @@ export default function HomePage() {
                   01
                 </div>
               </div>
-              <h3 className="vc-headline text-xl md:text-2xl mb-4 md:mb-6 text-pure-black">
+              <h3 className="vc-headline tracking-headline-sm leading-tight text-xl md:text-2xl mb-4 md:mb-6 text-pure-black">
                 Micro-Capital Efficiency
               </h3>
               <p className="vc-body text-sm md:text-base text-pure-black/70 leading-relaxed px-2">
@@ -120,7 +120,7 @@ export default function HomePage() {
                   02
                 </div>
               </div>
-              <h3 className="vc-headline text-xl md:text-2xl mb-4 md:mb-6 text-pure-black">
+              <h3 className="vc-headline tracking-headline-sm leading-tight text-xl md:text-2xl mb-4 md:mb-6 text-pure-black">
                 Instant Deployment
               </h3>
               <p className="vc-body text-sm md:text-base text-pure-black/70 leading-relaxed px-2">
@@ -135,7 +135,7 @@ export default function HomePage() {
                   03
                 </div>
               </div>
-              <h3 className="vc-headline text-xl md:text-2xl mb-4 md:mb-6 text-pure-black">
+              <h3 className="vc-headline tracking-headline-sm leading-tight text-xl md:text-2xl mb-4 md:mb-6 text-pure-black">
                 Zero Dilution
               </h3>
               <p className="vc-body text-sm md:text-base text-pure-black/70 leading-relaxed px-2">
@@ -177,7 +177,7 @@ export default function HomePage() {
                       EVENT PARTNER
                     </span>
                   </div>
-                  <h3 className="vc-headline text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
+                  <h3 className="vc-headline tracking-headline-sm leading-tight text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
                     Techfiesta 2.0
                   </h3>
                 </div>
@@ -191,7 +191,7 @@ export default function HomePage() {
                       EVENT PARTNER
                     </span>
                   </div>
-                  <h3 className="vc-headline text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
+                  <h3 className="vc-headline tracking-headline-sm leading-tight text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
                     Suinami Lagos
                   </h3>
                   <div className="flex flex-col space-y-2 mt-auto">
@@ -215,7 +215,7 @@ export default function HomePage() {
                       EVENT PARTNER
                     </span>
                   </div>
-                  <h3 className="vc-headline text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
+                  <h3 className="vc-headline tracking-headline-sm leading-tight text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
                     Entrypoint Labs
                   </h3>
                   <div className="flex flex-col space-y-2 mt-auto">
@@ -241,7 +241,7 @@ export default function HomePage() {
                       EVENT PARTNER
                     </span>
                   </div>
-                  <h3 className="vc-headline text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
+                  <h3 className="vc-headline tracking-headline-sm leading-tight text-2xl mb-3 text-pure-black group-hover:text-copper transition-colors">
                     Xend Global
                   </h3>
                   <div className="flex flex-col space-y-2 mt-auto">
@@ -288,7 +288,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="text-center group cursor-pointer hover:opacity-80 transition-opacity duration-300 border border-transparent hover:border-copper p-6 md:p-8"
             >
-              <h3 className="vc-headline text-2xl md:text-3xl mb-2 md:mb-3 text-pure-black">
+              <h3 className="vc-headline tracking-headline-sm leading-tight text-2xl md:text-3xl mb-2 md:mb-3 text-pure-black">
                 GiFTED!
               </h3>
               <p className="vc-body text-copper font-medium mb-2 text-base md:text-lg">

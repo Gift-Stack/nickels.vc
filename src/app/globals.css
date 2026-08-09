@@ -65,15 +65,31 @@
     @apply bg-background text-foreground;
     font-family: "Inter Tight", "Neue Haas Grotesk", "Inter", system-ui,
       sans-serif;
+    line-height: 1.5;
   }
 }
 
 @layer components {
+  /*
+   * Tracking is size-specific, not a single constant: large display type
+   * (hero, .tracking-hero below) wants more negative tracking as it grows,
+   * small headline text (<=30px: card/nav labels) wants to sit near zero.
+   * This is the mid tier default for section headings (~48-72px).
+   */
   .vc-headline {
     font-family: "Inter Tight", "Neue Haas Grotesk", "Inter", system-ui,
       sans-serif;
     font-weight: 700;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.015em;
+    font-optical-sizing: auto;
+  }
+
+  .tracking-hero {
+    letter-spacing: -0.035em;
+  }
+
+  .tracking-headline-sm {
+    letter-spacing: -0.008em;
   }
 
   .vc-body {
@@ -86,6 +102,8 @@
     font-family: "Inter Tight", "Neue Haas Grotesk", "Inter", system-ui,
       sans-serif;
     font-weight: 600;
+    letter-spacing: -0.01em;
+    font-variant-numeric: tabular-nums;
   }
 
   .pure-black {

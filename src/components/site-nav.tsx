@@ -6,7 +6,7 @@ export function SiteNav() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link
-            className="vc-headline text-2xl text-pure-black hover:text-copper transition-colors"
+            className="vc-headline tracking-headline-sm text-2xl text-pure-black hover:text-copper transition-colors"
             href="/"
           >
             nickels.vc

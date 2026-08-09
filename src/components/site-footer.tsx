@@ -3,7 +3,7 @@ export function SiteFooter() {
     <footer className="py-20 md:py-24 px-4 border-t border-neutral-gray">
       <div className="container mx-auto max-w-4xl text-center">
         <div className="mb-8">
-          <h3 className="vc-headline text-3xl text-pure-black mb-4">
+          <h3 className="vc-headline tracking-headline-sm leading-tight text-3xl text-pure-black mb-4">
             nickels.vc
           </h3>
           <p className="vc-body text-pure-black/60 max-w-2xl mx-auto">
