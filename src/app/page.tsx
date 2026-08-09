@@ -48,10 +48,10 @@ export default function HomePage() {
               </div>
               <div className="text-center">
                 <div className="vc-numbers text-4xl md:text-4xl font-bold text-pure-black">
-                  ∞
+                  None
                 </div>
                 <div className="vc-body text-base md:text-base">
-                  Portfolio Companies
+                  Fund Structure
                 </div>
               </div>
               <div className="text-center">

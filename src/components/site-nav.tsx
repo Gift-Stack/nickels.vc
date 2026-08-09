@@ -14,18 +14,6 @@ export function SiteNav() {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               className="vc-body text-pure-black/70 hover:text-pure-black transition-colors"
-              href="/blog"
-            >
-              Blog
-            </Link>
-            <Link
-              className="vc-body text-pure-black/70 hover:text-pure-black transition-colors"
-              href="/portfolio"
-            >
-              Portfolio
-            </Link>
-            <Link
-              className="vc-body text-pure-black/70 hover:text-pure-black transition-colors"
               href="/learn-more"
             >
               Learn More
