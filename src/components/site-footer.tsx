@@ -7,7 +7,7 @@ export function SiteFooter() {
             nickels.vc
           </h3>
           <p className="vc-body text-pure-black/60 max-w-2xl mx-auto">
-            Ultra-early stage venture capital. Backing ambition, one nickel at
+            Ultra-early stage micro-funding. Backing ambition, one nickel at
             a time.
           </p>
         </div>

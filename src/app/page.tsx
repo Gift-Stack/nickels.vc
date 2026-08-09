@@ -32,20 +32,12 @@ export default function HomePage() {
           </h1>
           <div className="max-w-2xl mx-auto mb-12 md:mb-16">
             <p className="vc-body text-xl md:text-xl lg:text-2xl text-pure-black/70 leading-relaxed mb-6 md:mb-8 px-4">
-              <strong>Ultra-early stage venture capital</strong> for visionary{" "}
+              <strong>Ultra-early stage micro-funding</strong> for visionary{" "}
               <strong>entrepreneurs</strong>. Our proprietary{" "}
               <em>micro-funding approach</em> delivers instant liquidity via{" "}
-              <strong>Solana and Sui USDC</strong>.
+              <strong>Solana and Sui USDC</strong> — starting with a nickel.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-y-0 sm:space-x-8 text-pure-black/50">
-              <div className="text-center">
-                <div className="vc-numbers text-4xl md:text-4xl font-bold text-copper">
-                  $0.05
-                </div>
-                <div className="vc-body text-base md:text-base">
-                  Average Check
-                </div>
-              </div>
               <div className="text-center">
                 <div className="vc-numbers text-4xl md:text-4xl font-bold text-pure-black">
                   None
@@ -132,8 +124,8 @@ export default function HomePage() {
                 Instant Deployment
               </h3>
               <p className="vc-body text-sm md:text-base text-pure-black/70 leading-relaxed px-2">
-                Traditional <strong>VC</strong> moves slowly. We deploy capital
-                in seconds via <strong>Solana and Sui USDC</strong>, not months.
+                Traditional funding moves slowly. We deploy capital in seconds
+                via <strong>Solana and Sui USDC</strong>, not months.{" "}
                 <em>Speed</em> is the ultimate competitive advantage.
               </p>
             </div>

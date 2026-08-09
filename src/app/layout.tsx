@@ -15,24 +15,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title:
-    "nickels.vc - Ultra-Early Stage Venture Capital | Micro-funding, $0.05 at a time",
+  title: "nickels.vc - Ultra-Early Stage Micro-Funding in Nigeria",
   description:
-    "nickels.vc - Ultra-Early Stage Venture Capital | Micro-funding, $0.05 at a time",
+    "nickels.vc is a small, self-funded venture putting micro-funding into technology projects, communities and individuals in Nigeria. No fund, no LPs, $0.05 at a time.",
   keywords: [
-    "venture capital",
-    "VC",
+    "micro-funding",
+    "Nigeria tech funding",
+    "micro-funding Nigeria",
+    "Nigerian tech ecosystem",
     "early stage",
     "ultra-early stage",
-    "micro-funding",
-    "startup funding",
-    "seed funding",
-    "angel investing",
-    "startup investment",
-    "pre-seed",
-    "micro VC",
-    "startup accelerator",
-    "startup incubator",
+    "Techfiesta",
+    "Suinami Lagos",
   ],
   authors: [
     {
@@ -44,10 +38,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://nickels.vc",
-    title:
-      "nickels.vc - Ultra-Early Stage Venture Capital | Micro-funding, $0.05 at a time",
+    title: "nickels.vc - Ultra-Early Stage Micro-Funding in Nigeria",
     description:
-      "nickels.vc - Ultra-Early Stage Venture Capital | Micro-funding, $0.05 at a time",
+      "A small, self-funded venture putting micro-funding into technology projects, communities and individuals in Nigeria. No fund, no LPs, $0.05 at a time.",
     siteName: "nickels.vc",
     images: [
       {
@@ -59,7 +52,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "nickels.vc",
     description:
-      "nickels.vc - Ultra-Early Stage Venture Capital | Micro-funding, $0.05 at a time",
+      "A small, self-funded venture putting micro-funding into technology projects, communities and individuals in Nigeria. No fund, no LPs, $0.05 at a time.",
     images: "https://nickels.vc/og-image.png",
   },
   icons: {
