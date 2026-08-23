@@ -81,7 +81,7 @@ const jsonLd = {
       alternateName: "Gift",
       url: "https://iamgifted.dev",
       jobTitle: "Managing Partner",
-      sameAs: ["https://x.com/_0xgifted"],
+      sameAs: ["https://x.com/gifted_oc"],
       worksFor: {
         "@id": "https://nickels.vc/#organization",
       },
@@ -287,12 +287,12 @@ export default function LearnMorePage() {
                 iamgifted.dev
               </a>
               <a
-                href="https://x.com/_0xgifted"
+                href="https://x.com/gifted_oc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="press inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 h-11 border-2 border-pure-black hover:bg-pure-black hover:text-white px-8 text-base font-medium rounded-none"
               >
-                @_0xgifted
+                @gifted_oc
               </a>
             </div>
           </div>

@@ -30,11 +30,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "_0xGifted",
-      url: "https://x.com/_0xgifted",
+      name: "gifted_oc",
+      url: "https://x.com/gifted_oc",
     },
   ],
-  creator: "_0xGifted",
+  creator: "gifted_oc",
   openGraph: {
     type: "website",
     url: "https://nickels.vc",

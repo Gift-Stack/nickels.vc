@@ -283,7 +283,7 @@ export default function HomePage() {
           </div>
           <div className="grid justify-items-center grid-cols-1 gap-12 md:gap-16 max-w-4xl mx-auto rounded-none ">
             <a
-              href="https://x.com/_0xgifted"
+              href="https://x.com/gifted_oc"
               target="_blank"
               rel="noopener noreferrer"
               className="card-lift text-center group cursor-pointer border border-transparent hover:border-copper p-6 md:p-8"
@@ -295,7 +295,7 @@ export default function HomePage() {
                 Managing Partner
               </p>
               <p className="inline-block mb-4 md:mb-6 text-sm text-pure-black/60 group-hover:text-copper transition-colors">
-                @_0xgifted
+                @gifted_oc
               </p>
               <p className="vc-body text-sm text-pure-black/70 mb-4 md:mb-6 leading-relaxed max-w-sm mx-auto px-2">
                 Puts micro-funding into technology projects, communities and
